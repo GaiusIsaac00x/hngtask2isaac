@@ -2,10 +2,14 @@ import MultipleItems from "./slider";
 function StatisticsSection() {
   return (
     <>
-      <section className="section1 py-5">
+
+    <section className="d-none">
+      okay
+    </section>
+      <section className="section1 py-5 bg-light">
         <div className="container py-5">
           <div className="row">
-            <div className="col-lg-4 col-md-4 col-6">
+            {/* <div className="col-lg-4 col-md-4 col-6">
               <h1 className="text-white">142</h1>
               <p className="text-center text-white">Total Launches</p>
             </div>
@@ -16,15 +20,34 @@ function StatisticsSection() {
             <div className="col-lg-4 col-md-4 col-6">
               <h1 className="text-white">358</h1>
               <p className="text-center text-white">Total Satellites</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
-    <section>
+      <section className="section1 py-5 bg-dark">
+        <div className="container py-5">
+          <div className="row">
+            {/* <div className="col-lg-4 col-md-4 col-6">
+              <h1 className="text-white">142</h1>
+              <p className="text-center text-white">Total Launches</p>
+            </div>
+            <div className="col-lg-4 col-md-4 col-6">
+              <h1 className="text-white">263</h1>
+              <p className="text-center text-white">Total Landings</p>
+            </div>
+            <div className="col-lg-4 col-md-4 col-6">
+              <h1 className="text-white">358</h1>
+              <p className="text-center text-white">Total Satellites</p>
+            </div> */}
+          </div>
+        </div>
+      </section>
+    <section className="mt-5">
         <div className="container">
         <MultipleItems />
         </div>
     </section>
+    
       <section className="section4 mt-5 mb-5">
         <div className="container pt-5 pb-5">
           <div className="row justify-content-center">
