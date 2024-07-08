@@ -1,69 +1,35 @@
-import coxmox from './assets/images/cosmox.svg';
-import coxmox1 from './assets/images/Cosmox1.svg';
+import React from 'react';
+
 function Footer() {
   return (
-    <footer className="mt-5 pb-5" style={{ backgroundColor: 'rgba(4, 21, 47, 1)' }}>
-      <div className="container pt-5">
-        <div className="row justify-content-center align-items-center">
-          <div className="col-lg-12">
-            <div className="row justify-content-center">
-              <div className="col-lg-2">
-                <div className="text-md-center text-left mt-3 mb-md-0 mb-5">
-                  <img src={coxmox} alt="" className="img-fluid" /><br />
-                  <img src={coxmox1} alt="" className="img-fluid mt-3" />
-                </div>
-              </div>
-              <div className="col-lg-1"></div>
-              <div className="col-lg-2">
-                <div>
-                  <a href="" className="mt-3">Collective</a>
-                </div>
-                <div className="mt-2">
-                  <a href="">Faces.art</a>
-                </div>
-                <div className="mt-2">
-                  <a href="">Oddities</a>
-                </div>
-                <div className="mt-2">
-                  <a href="">Mythics</a>
-                </div>
-              </div>
-              <div className="col-lg-2">
-                <div>
-                  <a href="" className="mt-3">Grails</a>
-                </div>
-                <div className="mt-2">
-                  <a href="">Contact Us</a>
-                </div>
-                <div className="mt-2">
-                  <a href="">Podcast</a>
-                </div>
-                <div className="mt-2">
-                  <a href="">Shop</a>
-                </div>
-              </div>
-              <div className="col-lg-2">
-                <div>
-                  <a href="" className="mt-3">Careers</a>
-                </div>
-                <div className="mt-2">
-                  <a href="">Documentation</a>
-                </div>
-                <div className="mt-2">
-                  <a href="">Privacy Policy</a>
-                </div>
-                <div className="mt-2">
-                  <a href="">Terms of Use</a>
-                </div>
-              </div>
-              <div className="col-lg-2">
-                <div className="text-end">
-                  <img src="./assets/images/x.svg" alt="" />
-                  <img src="./assets/images/opensea.svg" alt="" />
-                  <img src="./assets/images/discord.svg" alt="" />
-                </div>
-              </div>
-            </div>
+    <footer className="_0bg pt-2 pb-5">
+      <div className="container-fluid px-lg-3 mt-5">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+          <div className="col">
+            <h6 className="text-white"><i>Shop Fancy!</i></h6>
+          </div>
+          <div className="col">
+            <h6 className="text-white">About Shop Fancy!</h6>
+            <a href="#" className="mt-4 _0foot">Contact Us</a>
+            <a href="#" className="_0foot">About</a>
+          </div>
+          <div className="col">
+            <h6 className="text-white">Payment</h6>
+            <a href="#" className="mt-4 _0foot">Master Card</a>
+            <a href="#" className="_0foot">Visa</a>
+            <a href="#" className="_0foot">Verve</a>
+            <a href="#" className="_0foot">USSD code</a>
+          </div>
+          <div className="col">
+            <h6 className="text-white">Terms & Policy</h6>
+            <a href="#" className="mt-4 _0foot">Contact Us</a>
+            <a href="#" className="_0foot">About</a>
+          </div>
+          <div className="col">
+            <a href="#" className=""><i className="bi bi-facebook text-white"></i></a>
+            <a href="#" className="ms-2"><i className="bi bi-instagram text-white"></i></a>
+            <a href="#" className="ms-2"><i className="bi bi-twitter-x text-white"></i></a>
+            <a href="#" className="ms-2"><i className="bi bi-pinterest text-white"></i></a>
           </div>
         </div>
       </div>
