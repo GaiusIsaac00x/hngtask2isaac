@@ -601,7 +601,7 @@
     display: none;
     height: 400px;
     position: fixed;
-    top: 60px;
+    top: 80%;
     left: 0;
     bottom: 0;
     width: 300px;
@@ -635,7 +635,7 @@
   
     #main,
     #footer {
-      margin-left: 300px;
+      /* margin-left: 300px; */
     }
   }
   

@@ -34,6 +34,9 @@
 ._0row{
     border: 1px solid rgba(171, 171, 171, 1);
 }
+.order{
+    background-color: rgba(255, 236, 227, 1);
+}
 ._0post{
     position: absolute;
     right: -60px;
@@ -98,6 +101,14 @@ footer a{
 }
 ._0bdtp{
     border-top: 2px dashed #000; 
+}
+._0carupos{
+    position: absolute;
+    right: -25px;
+    bottom: 10px;
+}
+._0carubord{
+    border: 1px solid rgb(255,127,62);
 }
 @media only screen and (max-width: 768px) {
     ._0decr{

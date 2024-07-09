@@ -1,6 +1,5 @@
 // Main.jsx
 import React from 'react';
-// import shoppingcartx from './assets/img/shoppingcartx.svg';
 import shoppingcartx from './assets/img/shopping-cartx.svg';
 import NewArrivalsSection from './section2.jsx';
 import hng1a from './assets/img/hng1a.png';
@@ -15,14 +14,46 @@ import hng1i from './assets/img/hng1i.png';
 import hng1j from './assets/img/hng1j.png';
 import hng1k from './assets/img/hng1k.png';
 import hng1L from './assets/img/hng1L.png';
+import MultipleItems from './slider.jsx';
+
 
 const Main = () => {
   return (
     <div>
+      <div className="container-fluid">
+      <div className="row justify-content-center mt-3">
+        <div className="col-lg-5">
+        <input type="text" className='w-100 bg-none rounded-4 _0inp py-2 px-2' placeholder='Search'/>
+        </div>
+      </div>
+      <div className="container-fluid px-3">
+      <div className="row">
+      <MultipleItems />
+      </div>
+      </div>
+      </div>
     <main id="main" className="main">
       <section className="section dashboard">
         <div className="row">
-          <div className="col-lg-3 col-6">
+          <div className="col-lg-2">
+          {/* <h3>Category</h3> */}
+          <div class="dropdown text-center  mb-4">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Category
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Water Bottles</a></li>
+    <li><a class="dropdown-item" href="#">Tote Bags</a></li>
+    <li><a class="dropdown-item" href="#">Crocs</a></li>
+    <li><a class="dropdown-item" href="#">Biker Shorts</a></li>
+    <li><a class="dropdown-item" href="#">Crop Tops</a></li>
+    <li><a class="dropdown-item" href="#">Bucket Hats</a></li>
+  </ul>
+</div>
+          </div>
+          <div className="col-lg-10">
+            <div className="row">
+            <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -146,6 +177,18 @@ const Main = () => {
                   <span>
                     <i className="bi bi-star-fill _0star"></i>
                   </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
                 </div>
               </div>
             </div>
@@ -205,16 +248,16 @@ const Main = () => {
                     <i className="bi bi-star-fill _0star"></i>
                   </span>
                   <span>
-                    <i className="bi bi-star-fill _0star"></i>
+                    <i className="bi bi-star-fill _0star ms-1"></i>
                   </span>
                   <span>
-                    <i className="bi bi-star-fill _0star"></i>
+                    <i className="bi bi-star-fill _0star ms-1"></i>
                   </span>
                   <span>
-                    <i className="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill ms-1"></i>
                   </span>
                   <span>
-                    <i className="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill ms-1"></i>
                   </span>
                 </div>
               </div>
@@ -239,16 +282,16 @@ const Main = () => {
                   <span>
                     <i className="bi bi-star-fill _0star"></i>
                   </span>
-                  <span>
+                  <span className='ms-1'>
                     <i className="bi bi-star-fill _0star"></i>
                   </span>
-                  <span>
+                  <span className='ms-1'>
                     <i className="bi bi-star-fill"></i>
                   </span>
-                  <span>
+                  <span className='ms-1'>
                     <i className="bi bi-star-fill"></i>
                   </span>
-                  <span>
+                  <span className='ms-1'>
                     <i className="bi bi-star-fill"></i>
                   </span>
                 </div>
@@ -268,15 +311,24 @@ const Main = () => {
                 />
               </div>
               <div className="card-body">
-                {/* Card title and price */}
                 <h5 className="card-title text-dark">Bucket Hat</h5>
                 <p className="mb-0">&#8358; 5,000</p>
-                {/* Star ratings */}
                 <div className="_0stars">
                   <span>
                     <i className="bi bi-star-fill _0star"></i>
                   </span>
-                  {/* More star icons */}
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
                 </div>
               </div>
             </div>
@@ -368,11 +420,23 @@ const Main = () => {
               </div>
               <div className="card-body">
                 {/* Card title and price */}
-                <h5 className="card-title text-dark">Bucket Hat</h5>
+                <h5 className="card-title text-dark">Pink Barbie Scrunchie </h5>
                 <p className="mb-0">&#8358; 5,000</p>
                 {/* Star ratings */}
                 <div className="_0stars">
                   <span>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
                     <i className="bi bi-star-fill _0star"></i>
                   </span>
                 </div>
@@ -392,16 +456,31 @@ const Main = () => {
                 />
               </div>
               <div className="card-body">
-                <h5 className="card-title text-dark">Bucket Hat</h5>
+                <h5 className="card-title text-dark">Water Bottle</h5>
                 <p className="mb-0">&#8358; 5,000</p>
                 <div className="_0stars">
                   <span>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
+                    <i className="bi bi-star-fill _0star"></i>
+                  </span>
+                  <span className='ms-1'>
                     <i className="bi bi-star-fill _0star"></i>
                   </span>
                 </div>
               </div>
             </div>
           </div>
+            </div>
+          </div>
+        
         </div>
         <div className="row">
           <div className="text-center">

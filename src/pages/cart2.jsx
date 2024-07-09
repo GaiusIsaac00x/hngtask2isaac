@@ -120,9 +120,9 @@ const Cart2 = () => {
               </div>
               <div className="col-lg-3 col-md-3 col-6">
                 <div className="text-end text-md-start">
-                  <a href="#" className="_0decr">-</a>
+                  <a href="#" className="_0decr text-dark">-</a>
                   <input type="text" placeholder="2" className="mx-2 text-center rounded-2 _0crtinp" style={{ width: '30%', backgroundColor: 'transparent' }} />
-                  <a href="#" className="_0decr">+</a>
+                  <a href="#" className="_0decr text-dark">+</a>
                 </div>
               </div>
               <div className="col-lg-3 col-md-3">
@@ -151,9 +151,9 @@ const Cart2 = () => {
               </div>
               <div className="col-lg-3 col-md-3 col-6">
                 <div className="text-end text-md-start">
-                  <a href="#" className="_0decr">-</a>
+                  <a href="#" className="_0decr text-dark">-</a>
                   <input type="text" placeholder="2" className="mx-2 text-center rounded-2 _0crtinp" style={{ width: '30%', backgroundColor: 'transparent' }} />
-                  <a href="#" className="_0decr">+</a>
+                  <a href="#" className="_0decr text-dark">+</a>
                 </div>
               </div>
               <div className="col-lg-3 col-md-3">
@@ -182,9 +182,9 @@ const Cart2 = () => {
               </div>
               <div className="col-lg-3 col-md-3 col-6">
                 <div className="text-end text-md-start">
-                  <a href="#" className="_0decr">-</a>
+                  <a href="#" className="_0decr text-dark">-</a>
                   <input type="text" placeholder="2" className="mx-2 text-center rounded-2 _0crtinp" style={{ width: '30%', backgroundColor: 'transparent' }} />
-                  <a href="#" className="_0decr">+</a>
+                  <a href="#" className="_0decr text-dark">+</a>
                 </div>
               </div>
               <div className="col-lg-3 col-md-3">
@@ -213,9 +213,9 @@ const Cart2 = () => {
               </div>
               <div className="col-lg-3 col-md-3 col-6">
                 <div className="text-end text-md-start">
-                  <a href="#" className="_0decr">-</a>
+                  <a href="#" className="_0decr text-dark">-</a>
                   <input type="text" placeholder="2" className="mx-2 text-center rounded-2 _0crtinp" style={{ width: '30%', backgroundColor: 'transparent' }} />
-                  <a href="#" className="_0decr">+</a>
+                  <a href="#" className="_0decr text-dark">+</a>
                 </div>
               </div>
               <div className="col-lg-3 col-md-3">
@@ -277,7 +277,7 @@ const Cart2 = () => {
       
     </section>
     
-    <section className='mb-3 d-md-none'>
+    <section className='mb-3'>
       
     <div className="_0bg py-3 px-lg-3 px-3">
             <div className='d-flex align-items-center justify-content-between'>
@@ -291,7 +291,7 @@ const Cart2 = () => {
             </div>
             <div className="container-fluid mt-3">
       <div className="row ">
-            <div className="col-6">
+            <div className="col-6 col-md-3">
                 <div className="card position-relative">
                   <div className="_0posi d-md-block d-none">
                     <img src={shoppingcartx} alt="" className='img-fluid' />
@@ -315,7 +315,7 @@ const Cart2 = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-6 col-md-3">
                 <div className="card position-relative">
                   <div className="_0posi d-md-block d-none">
                     <img src={shoppingcartx} alt="" className='img-fluid' />
@@ -338,6 +338,71 @@ const Cart2 = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="col-6 col-md-3">
+                <div className="card position-relative">
+                  <div className="_0posi d-md-block d-none">
+                    <img src={shoppingcartx} alt="" className='img-fluid' />
+                  </div>
+                  <div className="text-center _0imgtop ">
+                    <img src={hngm} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
+                  </div>
+                  <div className="card-body position-relative">
+                    <div className='_0posismall'>
+                        <img src={hngcrv} alt="" />
+                    </div>
+                    <h5 className="card-title text-dark">Tote Bag</h5>
+                    <p className="mb-0">&#8358; 10,000</p>
+                    <div className="_0stars">
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 col-md-3">
+                <div className="card position-relative">
+                  <div className="_0posi d-md-block d-none">
+                    <img src={shoppingcartx} alt="" className='img-fluid' />
+                  </div>
+                  <div className="text-center _0imgtop ">
+                    <img src={hngm} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
+                  </div>
+                  <div className="card-body position-relative">
+                  <div className='_0posismall'>
+                        <img src={hngcrv} alt="" />
+                    </div>
+                    <h5 className="card-title text-dark">Tote Bag</h5>
+                    <p className="mb-0">&#8358; 10,000</p>
+                    <div className="_0stars">
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='text-center'>
+              <span>
+              <button className="_0page border-0 rounded-2 py-2 px-3">
+                <i className="bi bi-chevron-left"></i>
+              </button>
+            </span>
+            <span className="_0btnactive px-3 py-2 rounded-2 text-white ms-2">
+              1
+            </span>
+            <span className="ms-2">of</span>
+            <span className="_0btninactive px-3 py-2 rounded-2 ms-2">20</span>
+            <span>
+              <button className="_0page border-0 rounded-2 py-2 px-3 ms-2">
+                <i className="bi bi-chevron-right"></i>
+              </button>
+            </span>
               </div>
             </div>
       </div>
