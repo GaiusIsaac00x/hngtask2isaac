@@ -32,7 +32,7 @@
 }
 /* cart page */
 ._0row{
-    border: 1px solid #000000;
+    border: 1px solid rgba(171, 171, 171, 1);
 }
 ._0post{
     position: absolute;
@@ -76,11 +76,68 @@ footer i{
 footer a{
     text-decoration: none;
 }
+._0toshop{
+    border: 1px solid rgba(255, 127, 62, 1);
+    color: rgba(255, 127, 62, 1);
+}
+._0toshop:hover{
+    background-color: rgba(255, 127, 62, 1);
+    color: white;
+}
+._0toshop2{
+    background-color: rgba(255, 127, 62, 1);
+    color: white;
+}
+._0toshop2:hover{
+    border: 1px solid rgba(255, 127, 62, 1);
+    color: rgba(255, 127, 62, 1);
+    background-color: transparent;
+}
+._0off{
+    color: silver;
+}
+._0bdtp{
+    border-top: 2px dashed #000; 
+}
 @media only screen and (max-width: 768px) {
     ._0decr{
-        background-color: rgb(9, 56, 88);
+        background-color: rgb(255,127,62);
         padding: 5px 10px 5px 10px;
         border-radius: 5px;
         color: white;
     }
+    ._0post {
+        position: absolute;
+        right: -26px;
+        top: -57px;
+        cursor: pointer;
+    }
+    ._0crtinp{
+    border: none;
+    }
+    ._0cncl{
+        width: 16px;
+    }
+    ._0totsm{
+        font-size: 12px;
+    }
+    ._0posismall{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    ._0terms{
+        font-size: 15px !important;
+        font-weight: 900;
+    }
+    footer i{
+        font-size: 16px !important;
+    }
+}
+@media (min-width: 576px) {
+    .row-cols-sm-2>* {
+        flex: 0 0 auto;
+        /* width: 25%; */
+    }
+    
 }

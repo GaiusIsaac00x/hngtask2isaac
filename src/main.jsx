@@ -1,11 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
-import Cart from './pages/cart1.jsx';
 import Cart2 from './pages/cart2.jsx';
 import Navbar from './navbar.jsx';
 import Footer from './footer.jsx';
-import NewArrivalsSection from './section2.jsx';
 import Sidebar from './sidebar.jsx';
 import Main from './header.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,17 +21,17 @@ import './assets/vendor/bootstrap-icons/bootstrap-icons.css';
 
 const App = () => (
   <React.StrictMode>
-    <Router>
-      {/* <Cart /> */}
+    <BrowserRouter>
+
       <Navbar />
-      {/* <h1>okay</h1> */}
-      {/* <Route path="/cart2" component={Cart2} /> */}
+      <Routes>
+      <Route path='/'  element={<Main />}/>
+      <Route path='/cart2'  element={<Cart2 />}/>
+      </Routes>
       <Sidebar />
-      <Main />
-      <NewArrivalsSection />
       <Footer />
-      </Router>
-   
+
+    </BrowserRouter>
   </React.StrictMode>
 );
 

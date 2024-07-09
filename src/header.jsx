@@ -1,6 +1,8 @@
 // Main.jsx
 import React from 'react';
-import shoppingcart2 from './assets/img/shoppingcart2.svg';
+// import shoppingcartx from './assets/img/shoppingcartx.svg';
+import shoppingcartx from './assets/img/shopping-cartx.svg';
+import NewArrivalsSection from './section2.jsx';
 import hng1a from './assets/img/hng1a.png';
 import hng1b from './assets/img/hng1b.png';
 import hng1c from './assets/img/hng1c.png';
@@ -16,13 +18,14 @@ import hng1L from './assets/img/hng1L.png';
 
 const Main = () => {
   return (
+    <div>
     <main id="main" className="main">
       <section className="section dashboard">
         <div className="row">
           <div className="col-lg-3">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-3">
                 <img
@@ -57,7 +60,7 @@ const Main = () => {
             <div className="col-lg-3">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-3">
                 <img
@@ -92,7 +95,7 @@ const Main = () => {
           <div className="col-lg-3">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop pt-2">
                 <img
@@ -127,7 +130,7 @@ const Main = () => {
           <div className="col-lg-3">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-3">
                 <img
@@ -150,7 +153,7 @@ const Main = () => {
           <div className="col-lg-3">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-3">
                 <img
@@ -185,7 +188,7 @@ const Main = () => {
           <div className="col-lg-3">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-3">
                 <img
@@ -220,7 +223,7 @@ const Main = () => {
           <div className="col-lg-3">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-3">
                 <img
@@ -255,7 +258,7 @@ const Main = () => {
           <div className="col-lg-3">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-3">
                 <img
@@ -281,7 +284,7 @@ const Main = () => {
           <div className="col-lg-3">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop pt-3">
                 <img
@@ -316,7 +319,7 @@ const Main = () => {
           <div className="col-lg-3">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-4">
                 <img
@@ -354,7 +357,7 @@ const Main = () => {
             <div className="card position-relative">
               {/* Card content */}
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-4">
                 <img
@@ -379,7 +382,7 @@ const Main = () => {
           <div className="col-lg-3">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-3">
                 <img
@@ -419,8 +422,11 @@ const Main = () => {
             </span>
           </div>
         </div>
+        
       </section>
     </main>
+    <NewArrivalsSection />
+    </div>
   );
 };
 

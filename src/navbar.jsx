@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 import React from 'react';
 
 function Navbar() {
@@ -15,8 +16,8 @@ function Navbar() {
           </div>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link" href="#">Home</a>
+              <li className="nav-item pt-2">
+              <Link to='/' className='text-white'>Home</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Cart</a>
@@ -35,8 +36,8 @@ function Navbar() {
               <li className="nav-item">
                 <a className="nav-link" aria-disabled="true">Reviews</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-disabled="true">Recovery</a>
+              <li className="nav-item pt-2">
+                <Link to='/cart2' className='text-white'>Cart</Link>
               </li>
             </ul>
             <div className="d-flex">

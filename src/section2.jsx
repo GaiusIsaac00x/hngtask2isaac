@@ -6,8 +6,7 @@ import hngp from './assets/img/hngp.png';
 import hngq from './assets/img/hngq.png';
 import hngs from './assets/img/hngs.png';
 import hngt from './assets/img/hngt.png';
-// import hngu from './assets/img/hngu.png';
-import shoppingcart2 from './assets/img/shoppingcart2.svg';
+import shoppingcartx from './assets/img/shopping-cartx.svg';
 
 function NewArrivalsSection() {
   return (
@@ -20,7 +19,7 @@ function NewArrivalsSection() {
           <div className="col">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" className='img-fluid' />
+                <img src={shoppingcartx} alt="" className='img-fluid' />
               </div>
               <div className="text-center _0imgtop ">
                 <img src={hngm} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
@@ -41,14 +40,14 @@ function NewArrivalsSection() {
           <div className="col">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-5">
                 <img src={hngn} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
               </div>
               <div className="card-body">
-                <h5 className="card-title text-dark">Tote Bag</h5>
-                <p className="mb-0">&#8358; 10,000</p>
+                <h5 className="card-title text-dark">Silicon Cutlery Set</h5>
+                <p className="mb-0">&#8358; 29,000</p>
                 <div className="_0stars">
                   <span><i className="bi bi-star-fill _0star"></i></span>
                   <span><i className="bi bi-star-fill _0star"></i></span>
@@ -62,13 +61,13 @@ function NewArrivalsSection() {
           <div className="col">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-5">
                 <img src={hngo} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
               </div>
               <div className="card-body">
-                <h5 className="card-title text-dark">Tote Bag</h5>
+                <h5 className="card-title text-dark">Floating Metal Rack</h5>
                 <p className="mb-0">&#8358; 10,000</p>
                 <div className="_0stars">
                   <span><i className="bi bi-star-fill _0star"></i></span>
@@ -83,14 +82,14 @@ function NewArrivalsSection() {
           <div className="col">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-5">
                 <img src={hngp} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
               </div>
               <div className="card-body">
-                <h5 className="card-title text-dark">Tote Bag</h5>
-                <p className="mb-0">&#8358; 10,000</p>
+                <h5 className="card-title text-dark">Cast Iron Set</h5>
+                <p className="mb-0">&#8358; 70,000</p>
                 <div className="_0stars">
                   <span><i className="bi bi-star-fill _0star"></i></span>
                   <span><i className="bi bi-star-fill _0star"></i></span>
@@ -104,13 +103,13 @@ function NewArrivalsSection() {
           <div className="col">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-5">
                 <img src={hngq} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
               </div>
               <div className="card-body">
-                <h5 className="card-title text-dark">Tote Bag</h5>
+                <h5 className="card-title text-dark">Microwave Stand</h5>
                 <p className="mb-0">&#8358; 10,000</p>
                 <div className="_0stars">
                   <span><i className="bi bi-star-fill _0star"></i></span>
@@ -125,14 +124,14 @@ function NewArrivalsSection() {
           <div className="col">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-5">
                 <img src={hngs} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
               </div>
               <div className="card-body">
-                <h5 className="card-title text-dark">Tote Bag</h5>
-                <p className="mb-0">&#8358; 10,000</p>
+                <h5 className="card-title text-dark">Aesthetic Stool</h5>
+                <p className="mb-0">&#8358; 35,000</p>
                 <div className="_0stars">
                   <span><i className="bi bi-star-fill _0star"></i></span>
                   <span><i className="bi bi-star-fill _0star"></i></span>
@@ -146,7 +145,28 @@ function NewArrivalsSection() {
           <div className="col">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
+              </div>
+              <div className="text-center _0imgtop p-5">
+                <img src={hngt} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title text-dark">Double Layer box</h5>
+                <p className="mb-0">&#8358; 20,000</p>
+                <div className="_0stars">
+                  <span><i className="bi bi-star-fill _0star"></i></span>
+                  <span><i className="bi bi-star-fill _0star"></i></span>
+                  <span><i className="bi bi-star-fill _0star"></i></span>
+                  <span><i className="bi bi-star-fill _0star"></i></span>
+                  <span><i className="bi bi-star-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card position-relative">
+              <div className="_0posi">
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-5">
                 <img src={hngt} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
@@ -167,28 +187,7 @@ function NewArrivalsSection() {
           <div className="col">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
-              </div>
-              <div className="text-center _0imgtop p-5">
-                <img src={hngt} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title text-dark">Tote Bag</h5>
-                <p className="mb-0">&#8358; 10,000</p>
-                <div className="_0stars">
-                  <span><i className="bi bi-star-fill _0star"></i></span>
-                  <span><i className="bi bi-star-fill _0star"></i></span>
-                  <span><i className="bi bi-star-fill _0star"></i></span>
-                  <span><i className="bi bi-star-fill _0star"></i></span>
-                  <span><i className="bi bi-star-fill"></i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card position-relative">
-              <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-5">
                 <img src={hngn} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
@@ -209,7 +208,7 @@ function NewArrivalsSection() {
           <div className="col">
             <div className="card position-relative">
               <div className="_0posi">
-                <img src={shoppingcart2} alt="" />
+                <img src={shoppingcartx} alt="" />
               </div>
               <div className="text-center _0imgtop p-5">
                 <img src={hngn} className="card-img-top" alt="..." style={{ width: '60% !important' }} />

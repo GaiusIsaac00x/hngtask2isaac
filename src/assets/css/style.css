@@ -598,7 +598,7 @@
   # Sidebar
   --------------------------------------------------------------*/
   .sidebar {
-    /* display: none; */
+    display: none;
     height: 400px;
     position: fixed;
     top: 60px;
