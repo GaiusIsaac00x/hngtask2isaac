@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import hngn from '../assets/img/hngn.png';
 import hngm from '../assets/img/hngm.png';
 import hngo from '../assets/img/hngo.png';
@@ -65,7 +66,8 @@ const Checkout = () => {
               </div>
             </div>
             <div className="mt-5 d-md-block d-none">
-                  <a href="" className='_0toshop px-4 py-3 rounded-3'><span><i class="bi bi-arrow-left"></i></span> Back to Shop</a>
+            {/* <Link to='/cart2' className='text-white mx-2'><img src={shopp} alt="" /></Link> */}
+                  <Link to='/' className='_0toshop px-4 py-3 rounded-3'><span><i class="bi bi-arrow-left"></i></span> Back to Shop</Link>
                 </div>
           </div>
           <div className="col-lg-5 p-5">

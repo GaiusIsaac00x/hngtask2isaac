@@ -4,6 +4,7 @@ import React from 'react';
 import notificon from './assets/img/notification-bing.svg';
 import shopp from './assets/img/shopping-cart.svg';
 import shopp2 from './assets/img/tsk1.svg';
+import footerpic from './assets/img/fancy.svg';
 
 function Navbar() {
   return (
@@ -18,7 +19,7 @@ function Navbar() {
             </div>
             <div><a className="navbar-brand text-white d-md-none d-block" href="#"><i>Shop FANCY!</i></a></div>
           </div>
-          <a className="navbar-brand text-white d-md-block d-none" href="#"><i>Shop FANCY!</i></a>
+          <a className="navbar-brand text-white d-md-block d-none" href="#"><img src={footerpic} alt="" /></a>
           <div className='d-flex d-md-none'>
             <div><a href=""><span><img src={notificon} alt="" /></span></a></div>
             <div><Link to='/cart2' className='text-white mx-2'><img src={shopp} alt="" /></Link></div>
@@ -36,18 +37,12 @@ function Navbar() {
               <Link to='/' className='text-white'>Home</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Cart</a>
+                <a className="nav-link fw-bold" href="#">Market Place</a>
               </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li className="nav-item">
+                <a className="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   About
                 </a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
-                  <li><hr className="dropdown-divider" /></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
-                </ul>
               </li>
               <li className="nav-item">
                 <a className="nav-link" aria-disabled="true">Reviews</a>

@@ -9,7 +9,7 @@ function Footer() {
             <img src={footerpic} alt="" />
           </div>
           <div className="col">
-            <h6 className="text-white">About Shop Fancy!</h6>
+            <h6 className="text-white">About <span><i>Shop Fancy!</i></span></h6>
             <a href="#" className="mt-4 _0foot">Contact Us</a>
             <a href="#" className="_0foot">About</a>
           </div>

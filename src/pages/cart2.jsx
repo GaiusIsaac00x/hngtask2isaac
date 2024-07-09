@@ -144,7 +144,7 @@ const Cart2 = () => {
                     </div>
                   </div>
                   <div className="text-start w-md-50 w-50 py-md-0 py-3 ps-md-0 ps-2">
-                    <span style={{ fontWeight: 900 }}>Silicon Cutlery Set</span> <br />
+                    <span className='_0totsm' style={{ fontWeight: 900 }}>Silicon Cutlery Set</span> <br />
                     <span className='d-md-none d-block'>&#8358;10,000</span>
                   </div>
                 </div>
@@ -175,7 +175,7 @@ const Cart2 = () => {
                     </div>
                   </div>
                   <div className="text-start w-md-50 w-50 py-md-0 py-3 ps-md-0 ps-2">
-                    <span style={{ fontWeight: 900 }}>Floating Metal Rack</span> <br />
+                    <span className='_0totsm' style={{ fontWeight: 900 }}>Floating Metal Rack</span> <br />
                     <span className='d-md-none d-block'>&#8358;10,000</span>
                   </div>
                 </div>
@@ -206,7 +206,7 @@ const Cart2 = () => {
                     </div>
                   </div>
                   <div className="text-start w-md-50 w-50 py-md-0 py-3 ps-md-0 ps-2">
-                    <span style={{ fontWeight: 900 }}>Cast Iron Set</span> <br />
+                    <span className='_0totsm' style={{ fontWeight: 900 }}>Cast Iron Set</span> <br />
                     <span className='d-md-none d-block'>&#8358;10,000</span>
                   </div>
                 </div>
@@ -240,9 +240,20 @@ const Cart2 = () => {
           <div className="col-lg-10">
             <div className="row">
               <div className="col-lg-3">
-                <h5 className='d-md-block d-inline'>Promo Code?</h5>
-                <div className="position-relative mt-3 d-md-block d-inline ms-3">
-                  <input type="text" style={{ width: '50%' }} className="rounded-2" placeholder="Inem22" />
+                <h5 className='d-md-block d-none'>Promo Code?</h5>
+                <div className='d-flex justify-content-between d-md-none'>
+                  <div className='w-75'><h5 className='d-md-block d-inline'>Promo Code?</h5></div>
+                  <div>
+                    <div className="position-relative mt-3 d-md-block d-inline ">
+                      <div className='text-end'>
+                  <input type="text" className="rounded-2 cartinp" placeholder="Inem22" />
+                  {/* <img src={hngcx} alt="" style={{ width: '10%' }} /> */}
+                  </div>
+                </div>
+                </div>
+                </div>
+                <div className="position-relative mt-3 d-md-block d-none">
+                  <input type="text" className="rounded-2 cartinp" placeholder="Inem22" />
                   <img src={hngcx} alt="" style={{ width: '5%' }} />
                 </div>
                 <div className="mt-5">
