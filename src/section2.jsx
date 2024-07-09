@@ -16,7 +16,7 @@ function NewArrivalsSection() {
       </div>
       <div className="container-fluid px-lg-3 mt-5">
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
-          <div className="col">
+          <div className="col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" className='img-fluid' />
@@ -37,7 +37,7 @@ function NewArrivalsSection() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -58,7 +58,7 @@ function NewArrivalsSection() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -79,7 +79,7 @@ function NewArrivalsSection() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -100,7 +100,7 @@ function NewArrivalsSection() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -121,7 +121,7 @@ function NewArrivalsSection() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -142,7 +142,7 @@ function NewArrivalsSection() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -163,7 +163,7 @@ function NewArrivalsSection() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -184,7 +184,7 @@ function NewArrivalsSection() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -205,7 +205,7 @@ function NewArrivalsSection() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />

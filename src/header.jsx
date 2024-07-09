@@ -22,7 +22,7 @@ const Main = () => {
     <main id="main" className="main">
       <section className="section dashboard">
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -57,7 +57,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -92,7 +92,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -127,7 +127,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -150,7 +150,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -185,7 +185,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -220,7 +220,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -255,7 +255,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -281,7 +281,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -316,7 +316,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />
@@ -353,7 +353,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-6">
             <div className="card position-relative">
               {/* Card content */}
               <div className="_0posi">
@@ -379,7 +379,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-6">
             <div className="card position-relative">
               <div className="_0posi">
                 <img src={shoppingcartx} alt="" />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import hngm from '../assets/img/hngm.png';
 import hngn from '../assets/img/hngn.png';
 import hngo from '../assets/img/hngo.png';
@@ -263,8 +264,10 @@ const Cart2 = () => {
                   <div><h5>Total</h5></div>
                   <div><h5># 33,000</h5></div>
                 </div>
-                <div className="mt-5 text-center">
-                  <a href="" className='_0toshop2 px-4 py-3 rounded-2'>Check-out <span className='d-md-inline d-none'><i class="bi bi-arrow-right"></i></span></a>
+                <div className="mt-5 text-center text-md-end">
+                <Link to='/checkout' className='text-white'>
+                <a className='_0toshop2 px-4 py-3 rounded-2'>Check-out <span className='d-md-inline d-none'><i class="bi bi-arrow-right"></i></span></a>
+                </Link>
                 </div>
               </div>
             </div>

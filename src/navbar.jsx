@@ -1,19 +1,35 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import React from 'react';
+import notificon from './assets/img/notification-bing.svg';
+import shopp from './assets/img/shopping-cart.svg';
+import shopp2 from './assets/img/tsk1.svg';
 
 function Navbar() {
   return (
     <div className="_0bg">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand text-white" href="#"><i>Shop FANCY!</i></a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div className='d-flex d-md-none'>
+            <div>
+            <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div>
-            <i className="bi bi-list toggle-sidebar-btn" style={{ color: 'white' }}></i>
+            </div>
+            <div><a className="navbar-brand text-white d-md-none d-block" href="#"><i>Shop FANCY!</i></a></div>
           </div>
+          <a className="navbar-brand text-white d-md-block d-none" href="#"><i>Shop FANCY!</i></a>
+          <div className='d-flex d-md-none'>
+            <div><a href=""><span><img src={notificon} alt="" /></span></a></div>
+            <div><Link to='/cart2' className='text-white mx-2'><img src={shopp} alt="" /></Link></div>
+            <div><a href=""><span><img src={shopp2} alt="" /></span></a></div>
+          </div>
+          <button className="navbar-toggler d-none d-md-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          {/* <div>
+            <i className="bi bi-list toggle-sidebar-btn" style={{ color: 'white' }}></i>
+          </div> */}
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               <li className="nav-item pt-2">
@@ -36,14 +52,18 @@ function Navbar() {
               <li className="nav-item">
                 <a className="nav-link" aria-disabled="true">Reviews</a>
               </li>
-              <li className="nav-item pt-2">
+              <li className="nav-item">
+              <a className="nav-link" aria-disabled="true">Delivery</a>
+              </li>
+              <li className="nav-item pt-2 d-none">
                 <Link to='/cart2' className='text-white'>Cart</Link>
               </li>
             </ul>
             <div className="d-flex">
-              <a href=""><span><img src="./assets/img/notification-bing.svg" alt="" /></span></a>
-              <a href=""><span className="mx-lg-2"><img src="./assets/img/shopping-cart.svg" alt="" /></span></a>
-              <a href=""><span><img src="./assets/img/tsk1.svg" alt="" /></span></a>
+            
+              <a href=""><span><img src={notificon} alt="" /></span></a>
+              <Link to='/cart2' className='text-white mx-2'><img src={shopp} alt="" /></Link>
+              <a href=""><span><img src={shopp2} alt="" /></span></a>
             </div>
           </div>
         </div>
