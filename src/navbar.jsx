@@ -37,18 +37,18 @@ function Navbar() {
               <Link to='/' className='text-white'>Home</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link fw-bold" href="#">Market Place</a>
+                <a className="nav-link fw-bold d-none" href="#">Market Place</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a className="nav-link d-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-disabled="true">Reviews</a>
+                <a className="nav-link d-none" aria-disabled="true">Reviews</a>
               </li>
               <li className="nav-item">
-              <a className="nav-link" aria-disabled="true">Delivery</a>
+              <a className="nav-link d-none" aria-disabled="true">Delivery</a>
               </li>
               <li className="nav-item pt-2 d-none">
                 <Link to='/cart2' className='text-white'>Cart</Link>

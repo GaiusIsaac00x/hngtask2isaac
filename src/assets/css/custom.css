@@ -170,3 +170,8 @@ footer a{
     }
     
 }
+@media (min-width: 768px) {
+    ._0posismall{
+        display: none;
+    }
+}

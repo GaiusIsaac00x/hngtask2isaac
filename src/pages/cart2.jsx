@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import hngm from '../assets/img/hngm.png';
 import hngn from '../assets/img/hngn.png';
@@ -33,11 +34,11 @@ const Cart2 = () => {
                   <img src={shoppingcartx} alt="" className='img-fluid' />
                 </div>
                 <div className="text-center _0imgtop ">
-                  <img src={hngm} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
+                  <img src={hngp} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
                 </div>
                 <div className="card-body position-relative">
                   <div className='_0posismall'>
-                      <img src={hngcrv} alt="" />
+                      <img src={hngcrv} alt=""/>
                   </div>
                   <h5 className="card-title text-dark">Tote Bag</h5>
                   <p className="mb-0">&#8358; 10,000</p>
@@ -296,7 +297,7 @@ const Cart2 = () => {
             <h3 className="text-white fw-bold">You May Also Like <span><i></i></span> </h3>
             </div>
             <div>
-              <a href="" className='text-white'>View All<i class="bi bi-arrow-right"></i></a>
+              <Link to="/" className='text-white'>View All<i class="bi bi-arrow-right"></i></Link>
             </div>
             </div>
             </div>
@@ -308,6 +309,54 @@ const Cart2 = () => {
                     <img src={shoppingcartx} alt="" className='img-fluid' />
                   </div>
                   <div className="text-center _0imgtop ">
+                    <img src={hngp} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
+                  </div>
+                  <div className="card-body position-relative">
+                    <div className='_0posismall'>
+                        <img src={hngcrv} alt="" />
+                    </div>
+                    <h5 className="card-title text-dark">Tote Bag</h5>
+                    <p className="mb-0">&#8358; 10,000</p>
+                    <div className="_0stars">
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 col-md-3">
+                <div className="card position-relative">
+                  <div className="_0posi d-md-block d-none">
+                    <img src={shoppingcartx} alt="" className='img-fluid' />
+                  </div>
+                  <div className="text-center _0imgtop ">
+                    <img src={hngo} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
+                  </div>
+                  <div className="card-body position-relative">
+                  <div className='_0posismall'>
+                        <img src={hngcrv} alt="" />
+                    </div>
+                    <h5 className="card-title text-dark">Floating Metal Rack</h5>
+                    <p className="mb-0">&#8358; 10,000</p>
+                    <div className="_0stars">
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill _0star"></i></span>
+                      <span><i className="bi bi-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 col-md-3">
+                <div className="card position-relative">
+                  <div className="_0posi d-md-block d-none">
+                    <img src={shoppingcartx} alt="" className='img-fluid' />
+                  </div>
+                  <div className="text-center _0imgtop ">
                     <img src={hngm} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
                   </div>
                   <div className="card-body position-relative">
@@ -332,61 +381,13 @@ const Cart2 = () => {
                     <img src={shoppingcartx} alt="" className='img-fluid' />
                   </div>
                   <div className="text-center _0imgtop ">
-                    <img src={hngm} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
+                    <img src={hngp} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
                   </div>
                   <div className="card-body position-relative">
                   <div className='_0posismall'>
                         <img src={hngcrv} alt="" />
                     </div>
-                    <h5 className="card-title text-dark">Tote Bag</h5>
-                    <p className="mb-0">&#8358; 10,000</p>
-                    <div className="_0stars">
-                      <span><i className="bi bi-star-fill _0star"></i></span>
-                      <span><i className="bi bi-star-fill _0star"></i></span>
-                      <span><i className="bi bi-star-fill _0star"></i></span>
-                      <span><i className="bi bi-star-fill _0star"></i></span>
-                      <span><i className="bi bi-star-fill"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-6 col-md-3">
-                <div className="card position-relative">
-                  <div className="_0posi d-md-block d-none">
-                    <img src={shoppingcartx} alt="" className='img-fluid' />
-                  </div>
-                  <div className="text-center _0imgtop ">
-                    <img src={hngm} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
-                  </div>
-                  <div className="card-body position-relative">
-                    <div className='_0posismall'>
-                        <img src={hngcrv} alt="" />
-                    </div>
-                    <h5 className="card-title text-dark">Tote Bag</h5>
-                    <p className="mb-0">&#8358; 10,000</p>
-                    <div className="_0stars">
-                      <span><i className="bi bi-star-fill _0star"></i></span>
-                      <span><i className="bi bi-star-fill _0star"></i></span>
-                      <span><i className="bi bi-star-fill _0star"></i></span>
-                      <span><i className="bi bi-star-fill _0star"></i></span>
-                      <span><i className="bi bi-star-fill"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-6 col-md-3">
-                <div className="card position-relative">
-                  <div className="_0posi d-md-block d-none">
-                    <img src={shoppingcartx} alt="" className='img-fluid' />
-                  </div>
-                  <div className="text-center _0imgtop ">
-                    <img src={hngm} className="card-img-top" alt="..." style={{ width: '60% !important' }} />
-                  </div>
-                  <div className="card-body position-relative">
-                  <div className='_0posismall'>
-                        <img src={hngcrv} alt="" />
-                    </div>
-                    <h5 className="card-title text-dark">Tote Bag</h5>
+                    <h5 className="card-title text-dark">Cast Iron Set</h5>
                     <p className="mb-0">&#8358; 10,000</p>
                     <div className="_0stars">
                       <span><i className="bi bi-star-fill _0star"></i></span>

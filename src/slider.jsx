@@ -39,14 +39,14 @@ function MultipleItems() {
         <div className="p-2 position-relative">
           <div className="d-flex justify-content-between bg-light p-4 rounded-4 align-items-center _0carubord">
             <div>
-            <h5 className="fw-bold">Clearance Sales</h5>
-          <h6>UP TO 40% OFF</h6>
-          <div className="mt-5">
+            <h5 className="fw-bold">Shop Fancy 5th Year Anniversary Sales</h5>
+            <p>5 customers will get special offers for 5hrs</p>
+          <div className="">
             <button className="btn btn-warning border-0 text-white"  style={{ background: 'rgb(255,127,62)' }}>Shop Now</button>
           </div>
             </div>
             <div><img className="w-75" src={caru1} alt="" /></div>
-            <div className="position-absolute _0carupos">
+            <div className="position-absolute _0carupos d-none">
             <img className="w-75" src={caru2} alt="" />
             </div>
           </div>
@@ -66,36 +66,6 @@ function MultipleItems() {
             </div>
           </div>
         </div>
-        <div className="p-2 position-relative">
-          <div className="d-flex justify-content-between bg-light p-4 rounded-4 align-items-center _0carubord">
-            <div>
-            <h5 className="fw-bold">Clearance Sales</h5>
-          <h6>UP TO 40% OFF</h6>
-          <div className="mt-5">
-            <button className="btn btn-warning border-0 text-white"  style={{ background: 'rgb(255,127,62)' }}>Shop Now</button>
-          </div>
-            </div>
-            <div><img className="w-75" src={caru1} alt="" /></div>
-            <div className="position-absolute _0carupos">
-            <img className="w-75" src={caru2} alt="" />
-            </div>
-          </div>
-        </div>
-        <div className="p-2 position-relative">
-          <div className="d-flex justify-content-between bg-light p-4 rounded-4 align-items-center _0carubord">
-            <div>
-            <h5 className="fw-bold">Clearance Sales</h5>
-          <h6>UP TO 40% OFF</h6>
-          <div className="mt-5">
-            <button className="btn btn-warning border-0 text-white"  style={{ background: 'rgb(255,127,62)' }}>Shop Now</button>
-          </div>
-            </div>
-            <div><img className="w-75" src={caru1} alt="" /></div>
-            <div className="position-absolute _0carupos">
-            <img className="w-75" src={caru2} alt="" />
-            </div>
-          </div>
-        </div>  
       </Slider>
     </div>
   );
